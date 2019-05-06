@@ -3,6 +3,7 @@
   "description": "Venture Leap Util Bundle",
   "type": "symfony-bundle",
   "license": "MIT",
+  "minimum-stability": "beta",
   "authors": [
     {
       "name": "Venture Leap GmbH",
