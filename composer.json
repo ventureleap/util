@@ -1,12 +1,12 @@
 {
-  "name": "keylightberlin/util",
-  "description": "keylight Util Bundle",
-  "type": "symfyon-bundle",
+  "name": "ventureleap/util",
+  "description": "Venture Leap Util Bundle",
+  "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
     {
-      "name": "keylight GmbH",
-      "email": "dw@keylight.de"
+      "name": "Venture Leap GmbH",
+      "email": "daniel.werner@venture-leap.com"
     }
   ],
   "require": {
