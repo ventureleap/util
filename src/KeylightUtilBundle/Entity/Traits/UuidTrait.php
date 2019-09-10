@@ -13,7 +13,7 @@ trait UuidTrait
     /**
      * @var string
      *
-     * @ORM\Column(name="uuid", type="string", length=30, unique=true)
+     * @ORM\Column(name="uuid", type="string", length=36, unique=true)
      *
      * @Groups({"uuid"})
      */
