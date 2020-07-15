@@ -1,4 +1,3 @@
-[ ![Codeship Status for keylightberlin/util](https://app.codeship.com/projects/9d2f1350-9239-0134-cc17-1ed83dfd2c37/status?branch=master)](https://app.codeship.com/projects/186038)
 
 # Installation
 
@@ -8,7 +7,7 @@ Add the following part to you `composer.json`:
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/keylightberlin/util.git"
+            "url": "https://github.com/ventureleap/util.git"
         }
     ]
 ```
@@ -16,7 +15,7 @@ Add the following part to you `composer.json`:
 Then, add the bundle to your requirements section in `composer.json`:
 
 ```
-        "keylightberlin/util": "dev-master"
+        "ventureleap/util": "dev-master"
 ```
 
 Now initialize the bundle by adding it to your `AppKernel.php`:
@@ -26,7 +25,7 @@ public function registerBundles()
     {
         $bundles = array(
             ...
-            new KeylightUtilBundle\KeylightUtilBundle(),
+            new VentureLeapUtilBundle\VentureLeapUtilBundle(),
             ...
         );
         
@@ -39,7 +38,7 @@ public function registerBundles()
 
 You can configure the following options in config.yml
 
-keylight_util:
+venture_leap_util:
     email:
         sender_address: ~ 
     aws:
@@ -59,4 +58,4 @@ keylight_util:
 
 # Dependencies
 
-Asset handler use awesome tool pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlEX) to render an html file out of pdf. 
+Asset handler uses awesome tool pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlEX) to render an html file out of pdf. 
