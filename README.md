@@ -33,29 +33,3 @@ public function registerBundles()
     }
 
 ```
-
-# Basic usage
-
-You can configure the following options in config.yml
-
-venture_leap_util:
-    email:
-        sender_address: ~ 
-    aws:
-        s3_access_key_id: ~
-        s3_secret_access_key: ~
-        s3_bucket: ~
-        s3_base_path: ~
-        cloudfront_endpoint: ~
-        
-## Entity traits
-
-## Emails
-
-## EntityManager
-
-## Twig extensions
-
-# Dependencies
-
-Asset handler uses awesome tool pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlEX) to render an html file out of pdf. 
